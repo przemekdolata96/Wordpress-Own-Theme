@@ -1,0 +1,24 @@
+{
+    "name": "style",
+    "version": "1.0.0",
+    "description": "Style",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^0.28.9",
+        "extract-text-webpack-plugin": "^2.1.2",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.20.1",
+        "webpack": "^2.2.0",
+        "webpack-plugin-copy": "^1.0.1"
+    },
+    "dependencies": {
+        "hover.css": "^2.2.1"
+    }
+}
